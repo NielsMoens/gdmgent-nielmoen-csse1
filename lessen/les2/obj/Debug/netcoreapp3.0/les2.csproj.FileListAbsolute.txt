@@ -1,0 +1,11 @@
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\bin\Debug\netcoreapp3.0\les2.exe
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\bin\Debug\netcoreapp3.0\les2.deps.json
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\bin\Debug\netcoreapp3.0\les2.runtimeconfig.json
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\bin\Debug\netcoreapp3.0\les2.runtimeconfig.dev.json
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\bin\Debug\netcoreapp3.0\les2.dll
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\bin\Debug\netcoreapp3.0\les2.pdb
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\obj\Debug\netcoreapp3.0\les2.csprojAssemblyReference.cache
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\obj\Debug\netcoreapp3.0\les2.AssemblyInfoInputs.cache
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\obj\Debug\netcoreapp3.0\les2.AssemblyInfo.cs
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\obj\Debug\netcoreapp3.0\les2.dll
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les2\obj\Debug\netcoreapp3.0\les2.pdb
