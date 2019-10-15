@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les3\\oef4\\oef4.csproj",
+      "projectUniqueName": "E:\\git\\gdmgent-nielmoen-csse1\\lessen\\les3\\oef4\\oef4.csproj",
       "projectName": "oef4",
-      "projectPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les3\\oef4\\oef4.csproj",
+      "projectPath": "E:\\git\\gdmgent-nielmoen-csse1\\lessen\\les3\\oef4\\oef4.csproj",
       "packagesPath": "C:\\Users\\CyberTurtle\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les3\\oef4\\obj\\",
+      "outputPath": "E:\\git\\gdmgent-nielmoen-csse1\\lessen\\les3\\oef4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CyberTurtle\\AppData\\Roaming\\NuGet\\NuGet.Config"

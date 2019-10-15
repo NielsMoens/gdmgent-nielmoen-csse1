@@ -9,6 +9,7 @@ namespace oef4
             // FACULTEIT
             //n -> uitlezen
             int n,j;
+            Console.WriteLine("=================================\n FACULTEIT\n=================================");
             Console.Write("Input the number: ");
             n= Convert.ToInt32(Console.ReadLine());   
             Console.Write("\n");

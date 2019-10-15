@@ -9,3 +9,14 @@ E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef
 E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.AssemblyInfo.cs
 E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.dll
 E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.pdb
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\bin\Debug\netcoreapp3.0\oef5.exe
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\bin\Debug\netcoreapp3.0\oef5.deps.json
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\bin\Debug\netcoreapp3.0\oef5.runtimeconfig.json
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\bin\Debug\netcoreapp3.0\oef5.runtimeconfig.dev.json
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\bin\Debug\netcoreapp3.0\oef5.dll
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\bin\Debug\netcoreapp3.0\oef5.pdb
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.csprojAssemblyReference.cache
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.AssemblyInfoInputs.cache
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.AssemblyInfo.cs
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.dll
+E:\git\gdmgent-nielmoen-csse1\lessen\les3\oef5\obj\Debug\netcoreapp3.0\oef5.pdb
