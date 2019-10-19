@@ -1,0 +1,3 @@
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les4\Oefeningen\obj\Debug\netcoreapp3.0\Oefeningen.csprojAssemblyReference.cache
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les4\Oefeningen\obj\Debug\netcoreapp3.0\Oefeningen.AssemblyInfoInputs.cache
+E:\git\CSSE1\gdmgent-nielmoen-csse1\lessen\les4\Oefeningen\obj\Debug\netcoreapp3.0\Oefeningen.AssemblyInfo.cs
