@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\git\\gdmgent-nielmoen-csse1\\lessen\\les4\\Oefeningen\\Oefeningen.csproj",
-      "projectName": "Oefeningen",
-      "projectPath": "E:\\git\\gdmgent-nielmoen-csse1\\lessen\\les4\\Oefeningen\\Oefeningen.csproj",
+      "projectUniqueName": "E:\\git\\gdmgent-nielmoen-csse1\\Opdracht4\\Opdracht4.csproj",
+      "projectName": "Opdracht4",
+      "projectPath": "E:\\git\\gdmgent-nielmoen-csse1\\Opdracht4\\Opdracht4.csproj",
       "packagesPath": "C:\\Users\\CyberTurtle\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\gdmgent-nielmoen-csse1\\lessen\\les4\\Oefeningen\\obj\\",
+      "outputPath": "E:\\git\\gdmgent-nielmoen-csse1\\Opdracht4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CyberTurtle\\AppData\\Roaming\\NuGet\\NuGet.Config"

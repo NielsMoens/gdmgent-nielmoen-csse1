@@ -1,0 +1,11 @@
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\obj\Debug\netcoreapp3.0\Opdracht4.csprojAssemblyReference.cache
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\obj\Debug\netcoreapp3.0\Opdracht4.AssemblyInfoInputs.cache
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\obj\Debug\netcoreapp3.0\Opdracht4.AssemblyInfo.cs
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\bin\Debug\netcoreapp3.0\Opdracht4.exe
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\bin\Debug\netcoreapp3.0\Opdracht4.deps.json
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\bin\Debug\netcoreapp3.0\Opdracht4.runtimeconfig.json
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\bin\Debug\netcoreapp3.0\Opdracht4.runtimeconfig.dev.json
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\bin\Debug\netcoreapp3.0\Opdracht4.dll
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\bin\Debug\netcoreapp3.0\Opdracht4.pdb
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\obj\Debug\netcoreapp3.0\Opdracht4.dll
+E:\git\gdmgent-nielmoen-csse1\Opdracht4\obj\Debug\netcoreapp3.0\Opdracht4.pdb

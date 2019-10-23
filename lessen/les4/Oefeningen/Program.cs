@@ -10,7 +10,7 @@ namespace Oefeningen
         }
         static void genFib(int gen){
         // dit is een locale var
-            Console.WriteLine("test " + lengte);
+            Console.WriteLine("test " );
             long firstVal=0 , thrVal = 0; 
             long secVal = 1;
             Console.WriteLine("=================================\n DE RIJ VAN FIBONACCI\n=================================");
@@ -25,7 +25,7 @@ namespace Oefeningen
                 secVal = thrVal;
                 Console.WriteLine(thrVal);
                 }
-                
+
         }
         static void Main(string[] args)
         {
