@@ -30,9 +30,15 @@ namespace Opdracht4
         public decimal multiply() {
             return this.Number1 * this.Number2;
         }
+        public decimal modulo() {
+            return this.Number1 % this.Number2;
+        }
 
+
+
+        
         public override string ToString() {
-            return "Add: " + this.add() + "\nSubtract: " + this.subtract() + "\nDivide: " + this.divide() + "\nMultiply: " + this.multiply();
+            return "Add: " + this.add() + "\nSubtract: " + this.subtract() + "\nDivide: " + this.divide() + "\nMultiply: " + this.multiply() + "\nModulo: "+this.modulo();
         } 
     }
 }
