@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht4\\Opdracht4.csproj": {}
+    "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les5\\les5.csproj": {}
   },
   "projects": {
-    "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht4\\Opdracht4.csproj": {
+    "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les5\\les5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht4\\Opdracht4.csproj",
-        "projectName": "Opdracht4",
-        "projectPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht4\\Opdracht4.csproj",
+        "projectUniqueName": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les5\\les5.csproj",
+        "projectName": "les5",
+        "projectPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les5\\les5.csproj",
         "packagesPath": "C:\\Users\\CyberTurtle\\.nuget\\packages\\",
-        "outputPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht4\\obj\\",
+        "outputPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\lessen\\les5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CyberTurtle\\AppData\\Roaming\\NuGet\\NuGet.Config"
