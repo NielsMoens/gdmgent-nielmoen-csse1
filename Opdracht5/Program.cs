@@ -7,7 +7,7 @@ namespace Opdracht5
     {
         static void Main(string[] args)
         {
-            //  Calculator
+            //  Calculator add, substract, divide, multiply, modulus, faculteit, fibo
             decimal getal = 7;
             decimal verhoog = 1;
             decimal verlaag = 1;
@@ -36,13 +36,14 @@ namespace Opdracht5
             //  euromillions
             euroMillions();
 
+            // acc genarator
             try
             {
                 string status = args[0];
                 string prename = args[1];
                 string name = args[2]; 
 
-                Console.WriteLine(GenAcc(status, prename, name));
+                Console.Write("\n"+GenAcc(status, prename, name));
             }
             catch (System.IndexOutOfRangeException)
             {
@@ -51,7 +52,7 @@ namespace Opdracht5
             catch(System.Exception)
             {
                 Console.WriteLine("AHZO NEN ERROR PEEKEN! \nAHZO EEN KLET");
-            }   
+            }
         }
 
         //  verhoog
@@ -115,6 +116,8 @@ namespace Opdracht5
                 Thread.Sleep(2000);
             }
         }
+
+        // account genarator
         static string GenAcc(string status, string prename, string name){
             string email= "";
 
@@ -127,9 +130,10 @@ namespace Opdracht5
             return email;
         }
 
-        static string GenString(string input, int length){
+        static string GenString(string input, int length)
+        {
             return input.Substring(0, input.Length < length ? input.Length : length).ToLower();
         }
-
     }
 }
+        

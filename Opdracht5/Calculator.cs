@@ -41,13 +41,43 @@ namespace Opdracht5
         public decimal modulus(){
             return this.Number1 % this.Number2;
         }
+        
+        public string faculteit(){
+        long j;
+            long facul=1;
+            for(j=1;j<=this.Number1; j++)
+            {
+            facul= facul*j;
+            }
+            string magic = facul.ToString();            
+            return magic;
+        }
+        public string fibonacci(){
+            decimal firstVal=0 , thrVal = 0; 
+            decimal secVal = 1;
+            // Console.WriteLine("=================================\n DE RIJ VAN FIBONACCI\n=================================");
+            // Console.Write("Input the Row number: ");
+            decimal loop = this.Number1; 
+            Console.Write("\n");
+            Console.WriteLine(firstVal.ToString());
+            Console.WriteLine(secVal.ToString());
+            for (int i = 2; i < loop; i++){
+                thrVal = firstVal + secVal;
+                firstVal = secVal;
+                secVal = thrVal;
+                Console.WriteLine(thrVal.ToString());
+            }
+            return null;
+        }
 
         public override string ToString() {
             return "Add: " + this.add() + 
             "\nSubtract: " + this.subtract() + 
             "\nDivide: " + this.divide() + 
             "\nMultiply: " + this.multiply() + 
-            "\nModulus: " + this.modulus();
+            "\nModulus: " + this.modulus() +
+            "\nfaculteit: " + this.faculteit() + 
+            "\nfibonacci: " +this.fibonacci();
         } 
     }
 }
