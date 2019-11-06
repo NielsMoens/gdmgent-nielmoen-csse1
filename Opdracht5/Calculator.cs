@@ -53,6 +53,7 @@ namespace Opdracht5
             return magic;
         }
         public string fibonacci(){
+            int i;
             decimal firstVal=0 , thrVal = 0; 
             decimal secVal = 1;
             // Console.WriteLine("=================================\n DE RIJ VAN FIBONACCI\n=================================");
@@ -61,11 +62,11 @@ namespace Opdracht5
             Console.Write("\n");
             Console.WriteLine(firstVal.ToString());
             Console.WriteLine(secVal.ToString());
-            for (int i = 2; i < loop; i++){
+            for ( i = 2; i < loop; i++){
                 thrVal = firstVal + secVal;
                 firstVal = secVal;
                 secVal = thrVal;
-                Console.WriteLine(thrVal.ToString());
+                Console.WriteLine(thrVal);
             }
             return null;
         }

@@ -13,6 +13,7 @@ namespace Opdracht5
             decimal verlaag = 1;
             var calculator = new Calculator(8, 3);
             Console.WriteLine(calculator);
+            Console.WriteLine(calculator.fibonacci());
             increase(getal, verhoog);
             decrease(getal, verlaag);
 
