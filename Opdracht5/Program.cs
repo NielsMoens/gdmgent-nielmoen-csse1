@@ -28,12 +28,30 @@ namespace Opdracht5
             
             //  randomNumberGenarator
             Console.WriteLine("A randomNumber: " + randomNumGen(1, 45));
+            Console.WriteLine("A randomNumber with range: " + randomNumGen2());
 
             //  lotto
             lotto();
 
             //  euromillions
             euroMillions();
+
+            try
+            {
+                string status = args[0];
+                string prename = args[1];
+                string name = args[2]; 
+
+                Console.WriteLine(GenAcc(status, prename, name));
+            }
+            catch (System.IndexOutOfRangeException)
+            {
+                Console.WriteLine("EMPTY!!!!!!");
+            }
+            catch(System.Exception)
+            {
+                Console.WriteLine("AHZO NEN ERROR PEEKEN! \nAHZO EEN KLET");
+            }   
         }
 
         //  verhoog
@@ -54,6 +72,10 @@ namespace Opdracht5
         static int randomNumGen(int val1, int val2){
             Random rng = new Random();
             return rng.Next(val1, val2);
+        }
+        static int randomNumGen2(){
+            Random rng = new Random();
+            return rng.Next();
         }
 
         // lotto
@@ -92,6 +114,21 @@ namespace Opdracht5
                 Console.Write(randomNumber + " ");
                 Thread.Sleep(2000);
             }
+        }
+        static string GenAcc(string status, string prename, string name){
+            string email= "";
+
+            if (status == "docent"){
+                email = GenString(prename, 4) + GenString(name, 2) + "@artevelde.be";
+            }
+            else if (status == "student"){
+                email = GenString(prename, 4) + GenString(name, 4) + "@student.artevelde.be";
+            }
+            return email;
+        }
+
+        static string GenString(string input, int length){
+            return input.Substring(0, input.Length < length ? input.Length : length).ToLower();
         }
 
     }
