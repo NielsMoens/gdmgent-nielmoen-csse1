@@ -2,7 +2,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Opdracht06
+namespace Opdracht07
 {
 	public class Gebruiker : Persoon
 	{
@@ -42,14 +42,14 @@ namespace Opdracht06
 		}
 
 		//	Methodes
-		public new void LogOutput()
+		public override void LogOutput()
 		{
 			Console.WriteLine(string.Format("Gebruikersnaam: {0}\nLogin: {1}\nWachtwoord: {2}", Gebruikersnaam, Login, Wachtwoord));
 		}
 
 		// GenereerWachtwoord
 		protected Random randGen = new Random();
-		private string GenereerWachtwoord()
+		 string GenereerWachtwoord()
 		{
 			string psw = "gebruiker";
 			for (int i = 0; i < 100; i++) {

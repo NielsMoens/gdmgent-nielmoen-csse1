@@ -20,14 +20,14 @@ namespace Opdracht5
             decrease(getal, verlaag);
 
             //  IBAN checker
-            var Iban = new Iban("BE07 7390 1412 0066");
-            Console.Write("\nThe IBAN: "+Iban);
-            Console.WriteLine("\nCheck if valid control number: " + Iban.checkControlNumbers());
-            Console.WriteLine("Check numbercount = 16: "+Iban.checkNumberOfCharcters());
+            var iban = new Iban("BE07 7390 1412 0066");
+            Console.Write("\nThe IBAN: "+iban);
+            Console.WriteLine("\nCheck if valid control number: " + iban.checkControlNumbers());
+            Console.WriteLine("Check numbercount = 16: "+iban.checkNumberOfCharcters());
             Console.Write("Switched Characters: ");
-            Iban.switchCharacters();
-            Console.WriteLine(Iban);
-            Console.WriteLine("But is it really an IBAN?: "+Iban.isIban());
+            iban.switchCharacters();
+            Console.WriteLine(iban);
+            Console.WriteLine("But is it really an IBAN?: "+iban.isIban());
             
             //  randomNumberGenarator
             Console.WriteLine("A randomNumber: " + randomNumGen(1, 45));

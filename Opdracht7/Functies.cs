@@ -1,53 +1,43 @@
 using System;
+using System.Threading;
 
-namespace Opdracht7
+namespace Opdracht07
 {
-    class Calculator
+    public class Functies : Logging
     {
-        
-        public decimal Number1 { get; private set; }
-
-        public decimal Number2 { get; private set; }
-
-        //  assign numbers to Calculator
-        public Calculator(decimal number1, decimal number2) {
-            this.Number1 = number1;
-            this.Number2 = number2;
-        }
-        
         //  som
-        public decimal add() {
-            return this.Number1 + this.Number2;
+        public static decimal add(decimal number1, decimal number2) {
+            return number1 + number2;
         }
 
         //  verschil
-        public decimal subtract() {
-            return this.Number1 - this.Number2;
+        public static decimal subtract(decimal number1, decimal number2) {
+            return number1 - number2;
         }
         
         //  quotiënt
-        public decimal divide() {
-            if (this.Number2 == 0) {
+        public static decimal divide(decimal number1, decimal number2) {
+            if (number2 == 0) {
                 throw new ArgumentException("Cannot divide by zero!!!");
             }
-            return Math.Round(this.Number1 / this.Number2, 2);
+            return Math.Round(number1 / number2, 2);
         }
 
         //  product
-        public decimal multiply() {
-            return this.Number1 * this.Number2;
+        public static decimal multiply(decimal number1, decimal number2) {
+            return number1 * number2;
         }
 
         // modulus
-        public decimal modulus(){
-            return this.Number1 % this.Number2;
+        public static decimal modulus(decimal number1, decimal number2){
+            return number1 % number2;
         }
         
         // faculteit
-        public string faculteit(){
+        public static string faculteit(decimal number){
         long j;
             long facul=1;
-            for(j=1;j<=this.Number1; j++)
+            for(j=1;j<=number; j++)
             {
             facul= facul*j;
             }
@@ -56,11 +46,11 @@ namespace Opdracht7
         }
 
         // fibonacci
-        public string fibonacci(){
+        public static string fibonacci(decimal number){
             int i;
             decimal firstVal=0 , thrVal = 0; 
             decimal secVal = 1;
-            decimal loop = this.Number1; 
+            decimal loop = number; 
             Console.WriteLine(firstVal.ToString());
             Console.WriteLine(secVal.ToString());
             for ( i = 2; i < loop; i++){
@@ -71,53 +61,104 @@ namespace Opdracht7
             }
             return null;
         }
-
-        public override string ToString() {
-            return "Add: " + this.add() + 
-            "\nSubtract: " + this.subtract() + 
-            "\nDivide: " + this.divide() + 
-            "\nMultiply: " + this.multiply() + 
-            "\nModulus: " + this.modulus() +
-            "\nfaculteit: " + this.faculteit();
-        } 
-    }
-
-        class Iban
-    {
-        
-        public string IbanNumber { get; private  set; }
-
-        // remove spaces from IBAN
-        public Iban(string IbanNumber) {
-            this.IbanNumber = IbanNumber.Replace(" ", "");
-        }
         
         // check Control Numbers
-        public Boolean checkControlNumbers() {
-            int controlNumber = Int32.Parse(this.IbanNumber.Substring(2, 2));
-            return (this.IbanNumber.Substring(0, 2) == "BE" && controlNumber >= 2 && controlNumber <= 98);
+        public static Boolean checkControlNumbers(string ibanNumber) {
+            int controlNumber = Int32.Parse(ibanNumber.Substring(2, 2));
+            return (ibanNumber.Substring(0, 2) == "BE" && controlNumber >= 2 && controlNumber <= 98);
         }
 
         // check if number of characters = 16
-        public Boolean checkNumberOfCharcters() {
-            return this.IbanNumber.Length == 16;
+        public static Boolean checkNumberOfCharcters(string ibanNumber) {
+            return ibanNumber.Length == 16;
         }
 
         // switch controle numbers and replace them with hex numbers
-        public void switchCharacters() {
-            var controlNumbers = this.IbanNumber.Substring(0, 4);
-            this.IbanNumber = (this.IbanNumber.Replace(controlNumbers, "") + controlNumbers).Replace("BE", "1114");
+        public static string switchCharacters(string ibanNumber) {
+            var controlNumbers = ibanNumber.Substring(0, 4);
+            return (ibanNumber.Replace(controlNumbers, "") + controlNumbers).Replace("BE", "1114");
         }
 
         // check modulus 97 = 1
-        public Boolean isIban() {
-            var number = Int64.Parse(this.IbanNumber);
+        public static Boolean isIban(string ibanNumber) {
+            var number = Int64.Parse(ibanNumber);
             return (number % 97 == 1);
         }
 
-        public override string ToString() {
-            return this.IbanNumber;
+        //  verhoog
+        static decimal increase ( decimal num, decimal plusOne){
+            decimal result = num + plusOne;
+            Console.WriteLine("Increase: " + result);
+            return num + plusOne;
         }
+        //  verlaag
+        static decimal decrease ( decimal num, decimal minOne){
+            decimal result = num - minOne;
+            Console.WriteLine("Decrease: " + result);
+            return num + minOne;
+        }
+        // randomnumber
+        static int randomNumGen(int val1, int val2){
+            try
+            {
+                Random rng = new Random();
+                return rng.Next(val1, val2);
+            }
+            catch(System.Exception){
+                return 0;
+            }
+        }
+        static int randomNumGen2(){
+            try
+            {
+                Random rng = new Random();
+                return rng.Next();
+            }
+            catch{
+                return 0;
+            }
+        }
+
+        // lotto
+        static void lotto(){
+            Console.Write("\nThe winning lotto numbers are: ");
+            int[] arr = new int[6];
+            for (int i = 0; i < 6; i++)
+            {
+                int randomNumber = randomNumGen(1,45);
+                arr[i] = Convert.ToInt32(randomNumber);
+                Console.Write(randomNumber + " ");
+                Thread.Sleep(1000);
+            }
+
+            Console.WriteLine("\nThe saved winnningNumbers: ");
+            for (int o = 0; o < 6; o++)
+            {
+                Console.Write(arr[o] + " ");
+            }
+        }
+
+        // euroMillions
+        static void euroMillions(){
+            Console.Write("\nThe winning euroNumbers are: ");
+            for (int i = 0; i < 6; i++)
+            {
+                int randomNumber = randomNumGen(1, 50);
+                Console.Write(randomNumber + " ");
+                Thread.Sleep(2000);
+            }
+
+            Console.WriteLine("\nStars: ");
+            for (int o = 0; o < 2; o++)
+            {
+                int randomNumber = randomNumGen(1, 12);
+                Console.Write(randomNumber + " ");
+                Thread.Sleep(2000);
+            }
+        }
+        public override void LogOutput()
+		{
         
+		}
     }
 }

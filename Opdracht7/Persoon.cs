@@ -1,8 +1,8 @@
 using System;
 
-namespace Opdracht06
+namespace Opdracht07
 {
-	public class Persoon
+	public class Persoon : Logging
 	{
         // Velden
 		public string voornaam;
@@ -27,8 +27,9 @@ namespace Opdracht06
 			this.voornaam = voornaam;
 			Geslacht = geslacht;
 		}
+		
         // Methods
-		public void LogOutput()
+		public override void LogOutput()
 		{
 			Console.WriteLine(String.Format("Voornaam: {0}\nFamilienaam: {1}\nGeslacht: {2}", this.voornaam, Naam, Geslacht));
 		}

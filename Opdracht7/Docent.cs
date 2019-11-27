@@ -1,6 +1,6 @@
 using System;
 
-namespace Opdracht06
+namespace Opdracht07
 {
 	public class Docent : Gebruiker
 	{
@@ -41,5 +41,7 @@ namespace Opdracht06
 			}
 			return psw + "tnecod";
 		}
+
+		
 	}
 }
