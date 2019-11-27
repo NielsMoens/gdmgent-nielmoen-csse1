@@ -4,6 +4,7 @@ namespace Opdracht5
 {
     class Calculator
     {
+        
         public decimal Number1 { get; private set; }
 
         public decimal Number2 { get; private set; }
@@ -42,6 +43,7 @@ namespace Opdracht5
             return this.Number1 % this.Number2;
         }
         
+        // faculteit
         public string faculteit(){
         long j;
             long facul=1;
@@ -52,14 +54,13 @@ namespace Opdracht5
             string magic = facul.ToString();            
             return magic;
         }
+
+        // fibonacci
         public string fibonacci(){
             int i;
             decimal firstVal=0 , thrVal = 0; 
             decimal secVal = 1;
-            // Console.WriteLine("=================================\n DE RIJ VAN FIBONACCI\n=================================");
-            // Console.Write("Input the Row number: ");
             decimal loop = this.Number1; 
-            Console.Write("\n");
             Console.WriteLine(firstVal.ToString());
             Console.WriteLine(secVal.ToString());
             for ( i = 2; i < loop; i++){
@@ -77,8 +78,7 @@ namespace Opdracht5
             "\nDivide: " + this.divide() + 
             "\nMultiply: " + this.multiply() + 
             "\nModulus: " + this.modulus() +
-            "\nfaculteit: " + this.faculteit() + 
-            "\nfibonacci: " +this.fibonacci();
+            "\nfaculteit: " + this.faculteit();
         } 
     }
 }

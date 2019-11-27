@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\git\\gdmgent-nielmoen-csse1\\Opdracht5\\Opdracht5.csproj",
+      "projectUniqueName": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht5\\Opdracht5.csproj",
       "projectName": "Opdracht5",
-      "projectPath": "E:\\git\\gdmgent-nielmoen-csse1\\Opdracht5\\Opdracht5.csproj",
+      "projectPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht5\\Opdracht5.csproj",
       "packagesPath": "C:\\Users\\CyberTurtle\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\gdmgent-nielmoen-csse1\\Opdracht5\\obj\\",
+      "outputPath": "E:\\git\\CSSE1\\gdmgent-nielmoen-csse1\\Opdracht5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CyberTurtle\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,11 @@
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/bin/Debug/netcoreapp3.0/oef1(classe)
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/bin/Debug/netcoreapp3.0/oef1(classe).deps.json
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/bin/Debug/netcoreapp3.0/oef1(classe).runtimeconfig.json
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/bin/Debug/netcoreapp3.0/oef1(classe).runtimeconfig.dev.json
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/bin/Debug/netcoreapp3.0/oef1(classe).dll
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/bin/Debug/netcoreapp3.0/oef1(classe).pdb
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/obj/Debug/netcoreapp3.0/oef1(classe).csprojAssemblyReference.cache
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/obj/Debug/netcoreapp3.0/oef1(classe).AssemblyInfoInputs.cache
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/obj/Debug/netcoreapp3.0/oef1(classe).AssemblyInfo.cs
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/obj/Debug/netcoreapp3.0/oef1(classe).dll
+/Users/arilybaert/Repos/gdmgent-arilybae-csse1/Lessen/Les7/oef1(classe)/obj/Debug/netcoreapp3.0/oef1(classe).pdb

@@ -4,7 +4,8 @@ namespace Opdracht5
 {
     class Iban
     {
-        public string IbanNumber { get; private set; }
+        
+        public string IbanNumber { get; private  set; }
 
         // remove spaces from IBAN
         public Iban(string IbanNumber) {

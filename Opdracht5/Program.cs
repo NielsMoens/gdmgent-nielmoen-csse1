@@ -8,12 +8,14 @@ namespace Opdracht5
         static void Main(string[] args)
         {
             //  Calculator add, substract, divide, multiply, modulus, faculteit, fibo
+            var calculator = new Calculator(8, 3);
+            Console.WriteLine(calculator + "\nfibonacci: ");
+            Console.WriteLine(calculator.fibonacci());
+
+            // verhoog verlaag
             decimal getal = 7;
             decimal verhoog = 1;
             decimal verlaag = 1;
-            var calculator = new Calculator(8, 3);
-            Console.WriteLine(calculator);
-            Console.WriteLine(calculator.fibonacci());
             increase(getal, verhoog);
             decrease(getal, verlaag);
 
@@ -48,7 +50,7 @@ namespace Opdracht5
             }
             catch (System.IndexOutOfRangeException)
             {
-                Console.WriteLine("EMPTY!!!!!!");
+                Console.WriteLine("\nEMPTY!!!!!!");
             }
             catch(System.Exception)
             {
@@ -72,12 +74,24 @@ namespace Opdracht5
 
         // randomnumber
         static int randomNumGen(int val1, int val2){
-            Random rng = new Random();
-            return rng.Next(val1, val2);
+            try
+            {
+                Random rng = new Random();
+                return rng.Next(val1, val2);
+            }
+            catch(System.Exception){
+                return 0;
+            }
         }
         static int randomNumGen2(){
-            Random rng = new Random();
-            return rng.Next();
+            try
+            {
+                Random rng = new Random();
+                return rng.Next();
+            }
+            catch{
+                return 0;
+            }
         }
 
         // lotto
