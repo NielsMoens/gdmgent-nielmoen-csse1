@@ -4,7 +4,11 @@ namespace Opdracht07
 {
 	public abstract class Logging
 	{
-        public abstract void LogOutput();
+    /*
+        Gekunt niet van meerdere klasses overerven 
+        abstract is eigenlijks een gewonen klasse maar geen vast uitkomsten/waarden.
+    */     
+    public abstract void LogOutput();
     }
     
     // Via interfaces ?

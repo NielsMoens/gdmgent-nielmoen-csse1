@@ -1,0 +1,87 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": []
+  },
+  "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\krisra\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+=======
+    "C:\\Users\\krisra\\.nuget\\packages\\": {}
+>>>>>>> b9c85a5dc95f39880f0067d048e66c9930017e59
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\krisra\\OneDrive - Arteveldehogeschool\\aj1920\\CSSEI\\gdmgent-krisra-csse1\\Lessen\\Les7\\Oefening1\\Oefening1.csproj",
+      "projectName": "Oefening1",
+      "projectPath": "C:\\Users\\krisra\\OneDrive - Arteveldehogeschool\\aj1920\\CSSEI\\gdmgent-krisra-csse1\\Lessen\\Les7\\Oefening1\\Oefening1.csproj",
+      "packagesPath": "C:\\Users\\krisra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\krisra\\OneDrive - Arteveldehogeschool\\aj1920\\CSSEI\\gdmgent-krisra-csse1\\Lessen\\Les7\\Oefening1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\krisra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+      "projectUniqueName": "C:\\Users\\krisra\\Repos\\gdmgent-krisra-csse1\\lessen\\les7\\oefening1\\oefening1.csproj",
+      "projectName": "oefening1",
+      "projectPath": "C:\\Users\\krisra\\Repos\\gdmgent-krisra-csse1\\lessen\\les7\\oefening1\\oefening1.csproj",
+      "packagesPath": "C:\\Users\\krisra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\krisra\\Repos\\gdmgent-krisra-csse1\\lessen\\les7\\oefening1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\krisra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> b9c85a5dc95f39880f0067d048e66c9930017e59
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+<<<<<<< HEAD
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+=======
+>>>>>>> b9c85a5dc95f39880f0067d048e66c9930017e59
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

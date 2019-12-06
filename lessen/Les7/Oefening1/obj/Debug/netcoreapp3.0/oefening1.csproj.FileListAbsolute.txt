@@ -1,0 +1,11 @@
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\obj\Debug\netcoreapp3.0\oefening1.csprojAssemblyReference.cache
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\obj\Debug\netcoreapp3.0\oefening1.AssemblyInfoInputs.cache
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\obj\Debug\netcoreapp3.0\oefening1.AssemblyInfo.cs
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\bin\Debug\netcoreapp3.0\oefening1.exe
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\bin\Debug\netcoreapp3.0\oefening1.deps.json
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\bin\Debug\netcoreapp3.0\oefening1.runtimeconfig.json
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\bin\Debug\netcoreapp3.0\oefening1.runtimeconfig.dev.json
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\bin\Debug\netcoreapp3.0\oefening1.dll
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\bin\Debug\netcoreapp3.0\oefening1.pdb
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\obj\Debug\netcoreapp3.0\oefening1.dll
+C:\Users\krisra\Repos\gdmgent-krisra-csse1\lessen\les7\oefening1\obj\Debug\netcoreapp3.0\oefening1.pdb
