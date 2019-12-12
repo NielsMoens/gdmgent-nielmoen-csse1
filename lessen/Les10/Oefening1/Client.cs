@@ -8,9 +8,9 @@ namespace Clients
         
         // Fields
         private string name;
-        private List<ContactPerson> ContactPersons;
+        private ContactPerson cp;
         private string vat;
-        private List<Address> companyAddresses;
+        private Address companyAddress;
         private string remarks;
         private ClientType type;
 
@@ -26,18 +26,7 @@ namespace Clients
                 this.name = value;
             }
         }
-        // public ContactPerson ContactPerson
-        // {
-        //     get
-        //     {
-        //         return this.cp;
-        //     }
-        //     set
-        //     {
-        //         this.cp = value;
-        //     }
-        // }
-        public List<ContactPerson> ContactPersons
+        public ContactPerson ContactPerson
         {
             get
             {
@@ -59,26 +48,15 @@ namespace Clients
                 this.vat = value;
             }
         }
-        // public Address CompanyAddress
-        // {
-        //     get
-        //     {
-        //         return this.companyAddress;
-        //     }
-        //     set
-        //     {
-        //         this.companyAddress = value;
-        //     }
-        // }
-        public List<Adress> ContactPersons
+        public Address CompanyAddress
         {
             get
             {
-                return this.cp;
+                return this.companyAddress;
             }
             set
             {
-                this.cp = value;
+                this.companyAddress = value;
             }
         }
         public string Remarks
@@ -108,7 +86,7 @@ namespace Clients
         // Constructors
         public Client()
         {}
-        public Client(string name, List<ContactPerson> contactPersons, string vatnumber, List<Address>  Companyadresses, string remarks, ClientType t)
+        public Client(string name, ContactPerson contactPerson, string vatnumber, Address address, string remarks, ClientType t)
         {
             this.Name = name;
             this.ContactPerson = contactPerson;
