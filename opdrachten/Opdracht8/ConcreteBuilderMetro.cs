@@ -3,43 +3,44 @@ using System.Collections.Generic;
 
 namespace Opdracht8
 {
-    public class ConcreteBuilderDestandaard : IBuilder
+public class ConcreteBuilderMetro : IBuilder
     {
         private Krant _krant = new Krant();
         
         // A fresh builder instance should contain a blank product object, which
         // is used in further assembly.
-        public ConcreteBuilderDestandaard()
+        public ConcreteBuilderMetro()
         {
             this.Reset();
         }
-        
-        
+                
         public void Reset()
         {
             this._krant = new Krant();
         }
         
         // All production steps work with the same product instance.
-        public void secties()
+       public void secties()
         {
+            this._krant.Add("Weer\n");
             this._krant.Add("Economie\n");
+            this._krant.Add("Tv-gids\n");
             this._krant.Add("Binneland\n");
             this._krant.Add("Buitenland\n");
         }
         
-        public void Artikels()
+        public void artikels()
         {
-          this._krant.Add("MediaArtikel\n");
+            this._krant.Add("MediaArtikel\n");
             this._krant.Add("NieuwsArtikel\n");
             this._krant.Add("TechnologieArtikel\n");
         }
         
-        public void Reclame()
+        public void reclame()
         {
-            this._krant.Add("ad1 MediaMark -> JAWADE DADE\n");
-            this._krant.Add("ad2 Van den borre ad\n");
-            this._krant.Add("ad3 Proximus ad\n");
+            this._krant.Add("ad1: MediaMark -> JAWADE DADE\n");
+            this._krant.Add("ad2: Van den borre ad\n");
+            this._krant.Add("ad3: Proximus \n");
         }
         
         // Concrete Builders are supposed to provide their own methods for

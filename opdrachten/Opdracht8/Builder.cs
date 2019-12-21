@@ -8,8 +8,8 @@ namespace Opdracht8
     public interface IBuilder
     {
         void secties();
-        void Artikels();
-        void Reclame();
+        void artikels();
+        void reclame();
     }
     
     public class Krant
@@ -43,7 +43,7 @@ namespace Opdracht8
     public class Director
     {
         private IBuilder _builder;
-        
+         
         public IBuilder Builder
         {
             set { _builder = value; } 
@@ -59,8 +59,8 @@ namespace Opdracht8
         public void buildFullFeaturedProduct()
         {
             this._builder.secties();
-            this._builder.Artikels();
-            this._builder.Reclame();
+            this._builder.artikels();
+            this._builder.reclame();
         }
     }
     
